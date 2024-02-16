@@ -1,9 +1,9 @@
 let generateOTP = () => {
   //Define the length of the OTP
-  const otpLength = 6;
+  const otpLength = 4;
 
-  // Generate a random numeric OTP with exactly 6 digits
-  const otp = Math.floor(100000 + Math.random() * 900000);
+  // Generate a random numeric OTP with exactly 4 digits
+  const otp = Math.floor(1000 + Math.random() * 9000);
 
   //Display the generated OTP
   document.getElementById("otpDisplay").innerText = `${otp}`;
